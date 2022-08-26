@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    padding:0;
+}
 #navbar{
     border: 0px solid red;
     display: flex;
@@ -70,6 +74,12 @@
      border: 1px solid rgb(34, 235, 34);
      border-radius: 5px;
      font-weight: bold;
+}
+.cartbtn>button:hover{
+    background-color: rgb(143, 238, 143);
+}
+#navbar>.search>.searchbar>button:hover{
+    background-color: rgb(23, 23, 246);
 }
 
 #navbar> #options{
@@ -233,9 +243,10 @@
 #partyposter{
     margin-top: 50px;
    border: 0px solid red;
-   width: 90%;
+   width: 92%;
    margin: auto;
    margin-top: 40px;
+   margin-left: 80px;
 }
 #partyposter>img{
  width: 100%;
@@ -278,4 +289,170 @@
 }
 #shoesOptn>div>h2{
     color: black;
+}
+
+#shoesAd{
+    width: 90%;
+    height: 600px;
+    border: 0px solid red;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+   align-items: center;
+}
+#shoesAd>div{
+    width: 70%;
+    height: 90%;
+    border: 0px solid blue;
+    text-align: center;
+
+}
+#shoesAd>img{
+    width: 70%;
+    height: 90%;
+}
+#shoesAd>div>div{
+    border: 0px solid black;
+    margin-top: 50%;
+    color: black;
+}
+#shoesAd>div>div>button{
+    margin-top: 5px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+#shoesAd>div>div>div>h3{
+    width: 85%;
+    font-size:30px;
+    margin-left: 20px;
+}
+
+
+#styleroom{
+    width: 90%;
+    height: 600px;
+    border: 0px solid red;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+   align-items: center;
+}
+#styleroom>div{
+    width: 70%;
+    height: 90%;
+    border: 0px solid blue;
+
+}
+#styleroom>img{
+    width: 70%;
+    height: 90%;
+}
+#styleroom>div>div{
+    border: 0px solid black;
+    margin-top: 50%;
+    color: black;
+    margin-left: 30px;
+}
+#styleroom>div>div>button{
+    margin-top: 5px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+#schoolproduct{
+    width:95%;
+    height: 800px;
+    border: 0px solid red;
+    display: flex;
+    margin: auto;
+}
+#schoolproduct>.div1{
+    width: 30%;
+    border: px solid blue;
+    margin: auto;
+}
+.img{
+    width: 95%;
+    height: 80%;
+    border: 0px solid brown;
+    margin-top: 20px;
+}
+.img>img{
+    width: 100%;
+}
+.div1>button{
+
+    margin-top: 5px;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+#schoolproduct>.schoolproductOptn{
+    width:65%;
+    height:98%;
+    border: 0px solid green;
+}
+.schoolproductOptn>.box1{
+    width:100%;
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    gap: 20px;
+}
+.schoolproductOptn>.box2{
+    width:100%;
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    gap:20px;
+}
+.schoolproductOptn>.box1>div{
+    width:30%;
+    height: 90%;
+    border: 0px solid blue;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.schoolproductOptn>.box2>div{
+    width:30%;
+    height: 95%;
+    border: 0px solid blue;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.schoolproductOptn>.box1>div>img{
+    width: 100%;
+}
+.pants{
+    height: 72%;
+}
+.puma{
+    height:78%;
+}
+.nativeshoe{
+    height: 72%;
+}
+.box1>div{
+    line-height: 10px;
+}
+.schoolproductOptn>.box2>div>img{
+    width: 100%;
+}
+.USAcrew{
+    height:70%;
+}
+.schoolbag{
+    height: 70%;
+}
+.pumaprice{
+    color: red;
 }
