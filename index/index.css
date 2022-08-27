@@ -39,19 +39,22 @@ body{
     border: 0px solid red;
     width: 100%;
     height: 100px;
-    display: flex;
-    
+    display: flex;    
 }
 #navbar>.search>img{
     width:7%;
-    margin-left: 30px;
+    margin-left: 20px;
+}
+.searchbar{
+    border: 0px solid red;
+    display: flex;
 }
 #navbar>.search>.searchbar{
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 30px;
 }
 #navbar>.search>.searchbar>input{
-    width:400px;
+    width:300px;
     height: 39px;
 }
 #navbar>.search>.searchbar>button{
@@ -103,7 +106,7 @@ body{
     font: 600 16px Open Sans,sans-serif;
 }
 #options>a{
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 15px;
     text-decoration: none;
     color: #003953;
@@ -124,7 +127,7 @@ body{
   position: absolute;
   display: block;
   
-  width: 40%;
+  width: 45%;
   
   font-size: 1em;
 
@@ -199,7 +202,7 @@ body{
     height: 250px;
 }
 .chappal{
-    width: 60%;
+    width: 50%;
     margin-top: 5%;
     margin-bottom: 4%;
 }
@@ -456,3 +459,150 @@ body{
 .pumaprice{
     color: red;
 }
+#footer1{
+    width: 100%;
+    height: 150px;
+    border: 0px solid red;
+    background-color: rgb(3, 44, 72);
+    color: white;
+    padding: 8px;
+}
+.email{
+    display: flex;
+    border: 0px solid brown;
+    gap: 10px;
+}
+.email>div>input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+.email>div{
+   border: 0px solid blue;
+   gap: 10px;
+}
+.email>div:last-child>button{
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(3, 44, 72);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.email>div:last-child>button:hover{
+    color: black;
+    background-color: white;
+}
+
+#footer2{
+    height: 600px;
+    border: 0px solid green;
+    display: flex;
+    background-color: #003953;
+}
+#footer2>div{
+    width:20%;
+    height: 95%;
+    border: 0px solid blue;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+}
+#footer2>a>h4{
+    font-weight: bold;
+}
+.footerbox{
+    margin-top: 30px;
+}
+.footerbox>a{
+    color: white;
+}
+#feedback{
+    background-color: #144860;
+    padding: 3%;
+}
+#feedback>h4{
+    font-weight: bold;
+}
+#feedback>a{
+    color: white;
+}
+#feedback>button{
+    height: 50px;
+    background-color: rgb(3, 44, 72);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#feedback>button:hover{
+    color: black;
+    background-color: white;
+}
+#connectwithus{
+  border: 1px solid black;
+
+}
+#connectwithus>div>div{
+          border: 0px solid blue;
+}
+.footerbox1>a{
+    color: white;
+};
+
+    .container{
+      max-width: 1280px;
+      margin: 0 auto;
+      height: 80%;
+    }
+    .swiper-container {
+        width: 100%;
+        height:100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    
+     .slider-img{
+        width:200px;
+        height:150px;
+     }      
+
+     .slider-div{
+        width:150px;
+        height:300px;
+     }
+     .slider-content{
+        text-align: left;
+        line-height: 20px;
+     }
+     .slider-brand>img{
+            height: 200px;
+            width: 150px;
+     }
+     .brandname{
+        text-align: center;
+     }
+
+     .brand-img>img{
+        width: 200px;
+         height: 250px;
+
+     }
