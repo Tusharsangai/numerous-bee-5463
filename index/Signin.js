@@ -11,7 +11,7 @@ function siginUp(){
          alert("All Fields are mandatory");
    }else{
     alert("Sign In Successfully");
-    window.location.href="index/index.html"
+    window.location.href=""
    }
    
 };
